@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-image:url(./images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    
+
+
+}
+
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-image1 {
+    background-color: #ddd;
+    height: 200px; 
+    background-image: url(./images/Bali.jpg);
+    background-size: cover;
+  }
+
+  .card-image2 {
+    background-color: #ddd;
+    height: 200px; 
+    background-image: url(./images/Paris.jpg);
+    background-size: cover;
+  }
+  
+  .card-image3 {
+    background-color: #ddd;
+    height: 200px; 
+    background-image: url(./images/Tokyo.jpg);
+    background-size: cover;
+   
+  }
+  
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  .card .details {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 10px 0;
+  }
+  
+  .card p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .card .price {
+    font-weight: bold;
+    margin: 10px 0;
+    color: green;
+  }
+  
+  .card .price span {
+    color: #008000;
+  }
+  
+  .card button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
